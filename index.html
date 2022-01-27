@@ -38,6 +38,12 @@
   vertical-align: middle;
   height: 95%;
 }
+
+.project-list {
+  display: flex;
+  justify-content: space-between;
+
+}
 /* Create two equal columns that sits next to each other 
 
 * {
@@ -65,7 +71,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Morsal Niyaz</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile2.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,6 +85,9 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Personal Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
@@ -86,9 +95,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Personal Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#adventures">Adventures</a>
@@ -110,17 +116,23 @@
         </div>
         <p class="lead mb-5">Welcome to my Webpage! </br></br>
 
-        I have recently graduated from the British Columbia Institute of Technology and completed an Advanced Diploma in GIS. Prior to my post graduate studies I obtained my Bachelor of Science from the Univeristy of British Columbia.</br></br>
-        What is GIS? </br>
-        It is computer system for capturing, storing, checking, and displaying data. By relating seemingly unrelated data, GIS can help individuals and organizations better understand spatial patterns and relationships.</br></br>
+        Full Stack Web Developer with a background in Geographical Information Systems (GIS). I am passionate about developing creative and user-friendly apps that connect users across the globe. I’m excited to work in a team that prioritizes the autonomy and creativity of the users as well as the simplicity of the app.
 
-        My goal is to combine current GIS and programming knowledge towards a career path that strengthens analytical skills. </p>
+        </br></br>
+        I will soon graduate from Lighthouse Labs as a Developer! Before diving into the developer world I went to the British Columbia Institute of Technology and completed an Advanced Diploma in GIS. Prior to my post graduate studies, I obtained my Bachelor of Science from the Univeristy of British Columbia.
+      </br>
+      </br>
+
+        My goal is to combine my programming knowledge towards a career path that strengthens me as a developer and allows me to later guide those who will be starting the same journey! :) </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/morsal-niyaz-2123a2142/">
             <i class="fab fa-linkedin-in"></i>
           </a>
           <a href="https://github.com/MorsalN">
             <i class="fab fa-github"></i>
+          </a>
+          <a href="https://medium.com/@morsaln/pair-programming-1be715555a08">
+          <i class="fab fa-medium"></i>
           </a>
           <!-- hyperlink to Twitter and Facebook 
           <a href="#">
@@ -135,15 +147,156 @@
 
     <hr class="m-0">
 
+
+    <!-- the p-lg-5 is  for the left side padding, d-flex is for top padding -->
+    <section class="resume-section p-3 p-lg-5 align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Personal Projects</h2>
+        <div class="subheading mb-3">App and Web Development</div>
+        <!-- This changes the title of the resume name 
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
+
+        <!-- the fa-ul mb-0 gives the check marks -->
+        <ul class="fa-ul mb-0"> 
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/bookingCondoAmenities">Condo Books</a>
+              <p>Tech Stack: JavaScript, Ruby on Rails, PostgresSQL</p>
+              <p>CURRENT</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/jungle-rails">e-Commerce Junle Rails</a>
+              <p>Tech Stack: Ruby on Rails, JavaScript, PostgresSQL, RSpec</p>
+              <p>JAN 2022</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/scheduler">Interview Scheduler</a>
+              <p>Tech Stack: React, SASS, Axios, Node.js, Express, PostgreSQL, Testing: Jest, Cypress, Storybook</p>
+              <p>DEC 2021</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/FoodOrderPickup">FoodOrderPickup</a>
+              <p>Tech Stack: JavaScript, EJS, Express, Node, PG</p>
+              <p>DEC 2021</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/tinyapp">TinyApp</a>
+              <p>Tech Stack: JavaScript, EJS, Node</p>
+              <p>NOV 2021</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/tweeter">Tweeter</a>
+              <p>Tech Stack: JavaScript, jQuery, AJAX, Express, Node</p>
+              <p>NOV 2021</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/chatapp">Chat App</a>
+              Tech Stack: Python, JavaScript, HTML, CSS
+              <p>SEPT 2019</p>
+            </div>
+          </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/GradeAnalyzer">School Grade Analyzer</a>
+              Tech Stack: JavaScript, HTML, CSS
+              <p>SEPT 2019</p>
+            </div>
+            </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/TwitterClone">Twitter Clone</a>
+              Tech Stack: Python, HTML, CSS
+              <p>SEPT 2019</p>
+            </div>
+            </li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            <div class="project-list">
+              <a id = "GFG" href = "https://github.com/MorsalN/TwitterSentiment">Twitter Sentiment Analyzer</a>
+              Tech Stack: Python, HTML, CSS
+              <p>JAN 2019</p>
+            </div>
+            </li>  
+
+        </ul>        
+      </div>
+    </section> 
+
+    <hr class="m-0">
+
+
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Backroad Mapbooks</h3>
+            <div class="subheading mb-3">GIS Technician</div>
+            <p>• Updated and added 4,000+ points of interest for the BRMB App/Site/Mapbooks using QGIS and Postgresql/PostGIS
+              • Increased production by 25% for digital and hardcopy map products by taking initiative to complete updates promptly
+              • Validating features in database with technical writing/documentation including code commenting and system design
+              • Performing Quality Control on BRMB features across Canada prior to app update releases using SQL queries on PgAdmin</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Feb 2021 - Aug 2021</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">BCIT / Vanilla 5 Design Studios</h3>
+            <div class="subheading mb-3">GIS Development</div>
+            <p>• Generated 20+ high-resolution styled maps with for future clients to allow integration of map functionality
+              • Coordinated departmental meetings for effective communication on new updates on MapBox software
+              • Calculated cost of 6 application options by generating tables outlining licencing, reverse compatibility and price
+              • Built webpage prototype using maps created with geo-location functions using JavaScript, CSS +HTML5</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2020 - Sept 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">GeoBc Province of British Columbia - Government of BC</h3>
-            <div class="subheading mb-3">Practicum: Demographics Features Team</div>
-            <p>To track GeoBC's progress in updating their Digital Road Atlas (DRA). The deliverables that I will be able to provide to the organization by the end of this practicum is a dashboard summarizing these changes and updates created using Esri’s ArcGIS products such as ArcMap and ArcGIS Online. Demographic features refer to any features that are man-made such as a road network.</p>
+            <div class="subheading mb-3">GIS Analyst Intern</div>
+            <p>• Built an ESRI dashboard for GeoBC clients to track detailed road construction </br>
+              • Increased user efficiency 25% by adding query options that users such as engineers can easily filter </br>
+              • Standardized and upgraded datasets for effective data transfers using ArcGIS and Excel </br>
+              • Automated how future DRA datasets will be upgraded on ArcGIS using python scripts</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">April 2020 - June 2020</span>
@@ -154,8 +307,11 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">UBC Geographic Information Centre</h3>
-            <div class="subheading mb-3">Student Assistant</div>
-            <p>Performed site searches for researchers and environmental consultants by collecting relevant aerial photos using the GeoBC site and the NTS system to locate specific parcels of land on index maps. Responsible for administrative tasks to support the mandate of the Department of Geography by organizing the transaction of incoming and outgoing aerial packages.</p>
+            <div class="subheading mb-3">Air Photo Student Assistant</div>
+            <p>• Sorted 400+ aerial photos and books in one shift to ensure new clients have access
+              • Inspected through 800+ photos of client’s requested region finding specific dates beneficial to client
+              • Analyzed 70 years of aerial photos into containers for efficient operation of incoming and outgoing packages
+              • Cross-referenced photos to index maps getting exact flight paths, photo centres and dates organized for clients</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2016 - Sept 2018</span>
@@ -185,12 +341,23 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Lighthouse Labs</h3>
+            <div class="subheading mb-3">Diploma</div>
+            <div>Full Stack Web Development</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2021 - 2022</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">British Columbia Institute of Technology</h3>
             <div class="subheading mb-3">Advanced Diploma</div>
             <div>GIS - Geographical Information Science</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Sept 2019 - June 2020</span>
+            <span class="text-primary">2019 - 2020</span>
           </div>
         </div>
 
@@ -201,7 +368,7 @@
             <div>Environmental Sciences - Land, Air and Water Systems with a specialization in GIS</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Sept 2014 - May 2019</span>
+            <span class="text-primary">2015 - 2019</span>
           </div>
         </div>
 
@@ -213,7 +380,7 @@
             <p></p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Feb 2019 - April 2019</span>
+            <span class="text-primary">2019 - 2019</span>
           </div>
         </div>        
 
@@ -232,19 +399,44 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            SQL, mySQL &amp; PostgresSQL</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Python</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            HTML + CSS</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
             Git</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            JavaScript</li>
+            JavaScript, jQuery, React</li>
+          
+            <li>
+            <i class="fa-li fa fa-check"></i>
+              SQL, mySQL &amp; PostgresSQL</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+              NodeJS</li>  
+          
+          <li>
+            <i class="fa-li fa fa-check"></i>
+              Express</li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+        Ruby on Rails</li>
+
+        <li>
+          <i class="fa-li fa fa-check"></i>
+      AJAX</li>
+
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        Mocha and Chai Testng</li>
+
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Python</li>
+
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            HTML + CSS</li>
+
+        
           <li>
             <i class="fa-li fa fa-check"></i>
             R Programming</li>
@@ -257,9 +449,6 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             ERSI ArcGIS (ArcMap, ArcGIS Pro, ArcGIS Online)</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            MicroSoft Office (Excel, Word, Powerpoint)</li>
           <li>                             
         </ul> </br></br>
 
@@ -331,33 +520,6 @@
     </section>
 
     <hr class="m-0">  <!-- this create a line separating the sections -->  
-
-    <!-- the p-lg-5 is  for the left side padding, d-flex is for top padding -->
-    <section class="resume-section p-3 p-lg-5 align-items-center" id="projects">
-      <div class="w-100">
-        <h2 class="mb-5">Personal Projects</h2>
-        <div class="subheading mb-3">App and Web Development</div>
-        <!-- This changes the title of the resume name 
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
-
-        <!-- the fa-ul mb-0 gives the check marks -->
-        <ul class="fa-ul mb-0"> 
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Chat App</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            School Grade Analyzer</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Twitter Clone</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Twitter Sentiment Analyzer</li>                                   
-        </ul>        
-      </div>
-    </section> 
 
     <hr class="m-0">
 
